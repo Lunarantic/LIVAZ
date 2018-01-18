@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  android:background="@drawable/bac1">
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LIVAZ"
+
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:textSize="35dp"
+            android:id="@+id/textView4"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/textView17"
+            android:layout_toStartOf="@+id/textView17"
+            android:layout_marginTop="47dp"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" - The Stylist"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:id="@+id/textView17"
+            android:layout_gravity="right"
+            android:layout_alignBottom="@+id/textView4"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="60dp"
+            android:layout_marginEnd="60dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="_____________________________________"
+            android:id="@+id/textView18"
+            android:layout_centerVertical="true"
+            android:layout_alignLeft="@+id/textView19"
+            android:layout_alignStart="@+id/textView19"
+            android:layout_marginLeft="20dp"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:id="@+id/imageView2"
+            android:src="@drawable/livazlogo"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/textView19"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="_____________________________________"
+            android:id="@+id/textView19"
+            android:layout_below="@+id/textView17"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="           DEVELOPERS"
+            android:textColor="@android:color/black"
+            android:id="@+id/textView20"
+            android:layout_gravity="center"
+            android:layout_below="@+id/textView18"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Rahul Yadav\nVishal Garg\nKomal Dhumal\nDeepak Yadav\nPooja Anbhule\nShraddha Adsul\nVinuta Bhat\nSayali More"
+            android:id="@+id/textView21"
+            android:layout_gravity="center_horizontal"
+            android:layout_below="@+id/textView20"
+            android:layout_alignRight="@+id/textView20"
+            android:layout_alignEnd="@+id/textView20" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="    C-DAC Mumbai(Juhu)"
+        android:id="@+id/textView22"
+        android:layout_above="@+id/textView18"
+        android:layout_gravity="center"
+        android:layout_alignRight="@+id/textView19"
+        android:layout_alignEnd="@+id/textView19"
+        android:layout_alignLeft="@+id/textView20"
+        android:layout_alignStart="@+id/textView20"
+        android:textColor="#663300"/>
+
+</RelativeLayout>

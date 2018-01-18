@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="rvksdvps.livaz" >
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/livaz"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".LoginActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Dashboard"
+            android:label="@string/title_activity_dashboard"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity android:name=".SignUpActivity" />
+
+        <activity android:name=".MenTemplate" />
+        <activity android:name=".WomenTemplate" />
+
+        <activity android:name=".TemplateActivity" />
+        <activity android:name=".WardrobeActivity" />
+        <activity android:name=".SelectTop" >
+        </activity>
+        <activity android:name=".SelectBottom" >
+        </activity>
+        <activity android:name=".Selection" >
+        </activity>
+    </application>
+
+</manifest>

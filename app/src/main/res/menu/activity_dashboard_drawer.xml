@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_AddNewClothes" android:icon="@drawable/addtowardrobeicon"
+            android:title="Add new Clothes" />
+        <item android:id="@+id/nav_wardrobes" android:icon="@drawable/wardrobe"
+            android:title="Wardrobes" />
+        <item android:id="@+id/nav_DressCobmination" android:icon="@drawable/fav"
+            android:title="Favorites" />
+        <item android:id="@+id/nav_AboutUs" android:icon="@drawable/aboutus"
+            android:title="About Us"></item>
+
+    </group>
+
+</menu>

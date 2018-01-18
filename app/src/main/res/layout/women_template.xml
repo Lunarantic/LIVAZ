@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/bac1">
+
+    <ImageButton
+        android:src="@drawable/redkurti"
+        android:layout_width="100dp"
+        android:layout_height="135dp"
+        android:id="@+id/womenTemplateImageButtonKurti"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="50dp"
+        android:background="@android:color/transparent" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="130dp"
+        android:src="@drawable/blueshirtw"
+        android:background="@android:color/transparent"
+        android:id="@+id/womenTemplateImageButtonShirt"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/womenTemplateImageButtonKurti"
+        android:layout_toEndOf="@+id/womenTemplateImageButtonKurti"
+        android:layout_marginTop="50dp"/>
+
+
+    <ImageButton
+        android:src="@drawable/orangetshirtw"
+        android:layout_width="100dp"
+        android:layout_height="130dp"
+        android:background="@android:color/transparent"
+        android:id="@+id/womenTemplateImageButtonTShirt"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/womenTemplateImageButtonShirt"
+        android:layout_toEndOf="@+id/womenTemplateImageButtonShirt"
+        android:layout_marginTop="50dp" />
+
+    <ImageButton
+        android:src="@drawable/blackleggin"
+        android:background="@android:color/transparent"
+        android:layout_width="100dp"
+        android:layout_height="130dp"
+        android:id="@+id/womenTemplateImageButtonLeggins"
+        android:layout_below="@+id/textView11"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="40dp"/>
+
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="130dp"
+        android:src="@drawable/orangetrouserw"
+        android:layout_below="@+id/textView12"
+        android:background="@android:color/transparent"
+        android:id="@+id/womenTemplateImageButtonTrouser"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/womenTemplateImageButtonLeggins"
+        android:layout_toEndOf="@+id/womenTemplateImageButtonLeggins" />
+
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="130dp"
+        android:id="@+id/womenTemplateImageButtonJeans"
+        android:src="@drawable/blackjeansw"
+        android:background="@android:color/transparent"
+        android:layout_alignTop="@+id/womenTemplateImageButtonTrouser"
+        android:layout_toRightOf="@+id/womenTemplateImageButtonTrouser"
+        android:layout_toEndOf="@+id/womenTemplateImageButtonTrouser" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="    Kurtis"
+        android:textStyle="bold"
+        android:id="@+id/textView11"
+        android:layout_below="@+id/womenTemplateImageButtonKurti"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="     Shirts"
+        android:id="@+id/textView12"
+        android:layout_below="@+id/womenTemplateImageButtonShirt"
+        android:layout_toRightOf="@+id/womenTemplateImageButtonKurti"
+        android:layout_toEndOf="@+id/womenTemplateImageButtonKurti" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="     TShirts"
+        android:textStyle="bold"
+        android:id="@+id/textView13"
+        android:layout_below="@+id/womenTemplateImageButtonShirt"
+        android:layout_toRightOf="@+id/womenTemplateImageButtonShirt"
+        android:layout_toEndOf="@+id/womenTemplateImageButtonShirt" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="   Leggings"
+        android:id="@+id/textView14"
+        android:layout_below="@+id/womenTemplateImageButtonLeggins"
+        android:layout_alignLeft="@+id/womenTemplateImageButtonLeggins"
+        android:layout_alignStart="@+id/womenTemplateImageButtonLeggins" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="  Trousers"
+        android:textStyle="bold"
+        android:id="@+id/textView15"
+        android:layout_below="@+id/womenTemplateImageButtonTrouser"
+        android:layout_toRightOf="@+id/womenTemplateImageButtonLeggins"
+        android:layout_toEndOf="@+id/womenTemplateImageButtonLeggins" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="      Jeans"
+        android:id="@+id/textView16"
+        android:layout_below="@+id/womenTemplateImageButtonTrouser"
+        android:layout_toRightOf="@+id/womenTemplateImageButtonTrouser"
+        android:layout_toEndOf="@+id/womenTemplateImageButtonTrouser" />
+
+</RelativeLayout>

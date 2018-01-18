@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/bac1"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:background="@android:color/transparent"
+        android:src="@drawable/boy"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/imageButtonMen"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="25dp"/>
+
+    <ImageButton
+        android:background="@android:color/transparent"
+        android:src="@drawable/girl"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/imageButtonWomen"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignTop="@+id/imageButtonMen"
+        android:layout_toRightOf="@+id/imageButtonMen"
+        android:layout_toEndOf="@+id/imageButtonMen" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="    Men"
+        android:id="@+id/textView5"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="50dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_below="@+id/imageButtonMen"></TextView>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="       Women"
+        android:textSize="25dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:id="@+id/textView6"
+        android:layout_below="@+id/imageButtonWomen"
+        android:layout_alignLeft="@+id/imageButtonWomen"
+        android:layout_alignStart="@+id/imageButtonWomen" />
+
+</RelativeLayout>
